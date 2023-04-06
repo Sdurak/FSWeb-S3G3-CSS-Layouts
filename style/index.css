@@ -114,3 +114,119 @@
     align-items: center;
   }
 
+  @media (max-width: 800px) {
+    body {
+      background-color: rgb(231, 219, 243);
+    }
+  
+    p {
+    font-size: 1em;
+    font-family: roboto;
+    padding: 1em;
+    line-height: 1.4;
+    }
+  
+    .wrapper {
+      max-width: auto;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    h1 {
+      text-align: center;
+      font-family: "Gageu", cursive;
+      font-size: 2em;
+    }
+  
+    h2 {
+      text-align: center;
+      font-family: "Gageu", cursive;
+    }
+    
+    .header {
+      color: rgb(17, 16, 16);
+      background-color: rgb(250, 192, 230);
+      padding: 2rem 0;
+    }
+    
+    .header nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0em 0em;
+      margin: 0em 0em;
+    }
+  
+    .header nav a {
+      margin: 0 0px;
+    background-color: white;
+    padding: 0em;
+    display: inline-block;
+    border-radius: 0em;
+    border-style: outset;
+    border-color: black;
+    color:black;
+    text-decoration: none;
+    margin-bottom: 0em;
+    }
+  
+    .header nav a:hover {
+      background-color: rgb(240, 131, 227);
+      color: white;
+    }
+    
+    
+    .menu {
+      padding: 0.5rem 0.75rem;
+      background-color: rgb(254, 243, 253);
+      margin-right: 10px;
+    }
+    
+    .about {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .about__img {
+      /* min-width: 450px; */
+      /* flex-grow: 1; */
+      flex-basis: 450px;
+      min-width: 400px;
+      height: 400px;
+      object-fit: contain;
+    }
+    
+    .about__img img,
+    .project__img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .about__text {
+      flex-basis: 90em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .projects {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .project {
+      width: 20em;
+    }
+    
+    .footer {
+      background-color: rgb(240, 131, 227);
+      height: 10em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
